@@ -95,5 +95,6 @@
     <version>1.18.46</version>
     <scope>compile</scope>
 </dependency>
+<!--added comment from git to check for merger-->
 </dependencies> 
 </project>
