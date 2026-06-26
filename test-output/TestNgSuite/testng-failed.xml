@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNgSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="bvt"/>
+        <include name="functional"/>
+        <exclude name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="PkgDemo.TestNgGroups">
+        <methods>
+          <include name="method4"/>
+        </methods>
+      </class> <!-- PkgDemo.TestNgGroups -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [TestNgSuite] -->

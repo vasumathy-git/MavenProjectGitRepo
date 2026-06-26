@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestNgSuite">
+	<test name="Test">
+<!--		<dependencies>
+			<group name="bvt" depends-on="functional"></group>
+		</dependencies>-->
+		<groups>
+			<run>
+				<include name="bvt" />
+				<include name="functional" />
+				<exclude name="regression" />
+			</run>
+		</groups>
+
+		<classes>
+			<class name="PkgDemo.TestNgGroups" />
+			<class name="PkgDemo.TestNgDemo" />
+
+		</classes>
+	</test> 
+</suite> 
