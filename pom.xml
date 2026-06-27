@@ -95,6 +95,5 @@
     <version>1.18.46</version>
     <scope>compile</scope>
 </dependency>
-<!-- added comment from eclipse branch1 to check merge-->
-</dependencies>
+</dependencies> 
 </project>
